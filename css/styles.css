@@ -55,7 +55,7 @@ button {
     flex-direction: column;
     justify-content: center;
     align-items: stretch;
-    padding: 12px 32px 64px 32px;
+    padding: 0px 32px 64px 32px;
     gap: 24px;
 }
 
@@ -101,6 +101,11 @@ button {
     gap: 16px;
 }
 
+.info-head {
+    font-size: 24px;
+    font-weight: 700;
+}
+
 .cards {
     display: flex;
     gap: 24px;
@@ -120,8 +125,32 @@ img {
 .quote {
     color: #1F2937;
     background-color: #E5E7EB;
+    padding: 64px 32px 64px 32px;
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+}
+
+.quote-container {
     font-weight: 300;
     font-style: italic;
+    text-align: left;
+    font-size: 24px;
+}
+
+.quote-author {
+    text-align: right;
+    font-weight: 700;
+    font-size: 18px;
+}
+
+.cta {
+    display: flex;
+    flex: 1;
+}
+
+.cta-container {
+
 }
 
 .footer {
@@ -130,4 +159,5 @@ img {
     flex: 1;
     text-align: center;
     align-content: center;
+    padding: 12px 0px;
 }
